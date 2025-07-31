@@ -1,5 +1,10 @@
 #깃허브 사용시에는 폴더 자체를 올릴 수는 없지만 파일을 따로 올려서 사용은 가능함
 ***** 깃허브에 기간으로 사용하는 토큰을 생성해야함
+git하고 github의 차이점
+
+
+
+
 # 1. 작업 폴더로 이동
 cd ~/Desktop/폴더 이름-----기기의 폴더의 주소
 
@@ -29,7 +34,11 @@ git push -u origin main
 git add .
 
 # 2. 변경 내용을 커밋
-git commit -m "Explain what changed"
+git commit -m "커밋 메세지"
+
+
+#2-1. 로컬 커밋이 이전과 다른 문제가 생길 수 있음-최신 커밋과 합쳐야 될 수 있음
+git pull origin main --rebase
 
 # 3. GitHub에 푸시
 git push
