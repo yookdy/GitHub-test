@@ -30,15 +30,18 @@ git push -u origin main
 
 
 올린 폴더에 추가 내용이 들어갈 때
-# 1. 변경된 파일 Git에 추가
+## 1. 작업 폴더로 이동
+cd ~/Desktop/폴더 이름-----기기의 폴더의 주소
+
+# 2. 변경된 파일 Git에 추가
 git add .
 
-# 2. 변경 내용을 커밋
+# 3. 변경 내용을 커밋
 git commit -m "커밋 메세지"
 
 
-#2-1. 로컬 커밋이 이전과 다른 문제가 생길 수 있음-최신 커밋과 합쳐야 될 수 있음
+#4. 로컬 커밋이 이전과 다른 문제가 생길 수 있음-최신 커밋과 합쳐야 될 수 있음
 git pull origin main --rebase
 
-# 3. GitHub에 푸시
+# 5. GitHub에 푸시
 git push
