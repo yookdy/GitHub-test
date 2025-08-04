@@ -22,7 +22,9 @@ git commit -m "Initial commit with all files"
 
 # 6. 브랜치 이름을 main으로 설정 (선택사항)
 git branch -M main
-#7.***** 깃허브에 일정 기간동안 사용하는 토큰을 생성해야함
+
+# 7. ***** 깃허브에 일정 기간동안 사용하는 토큰을 생성해야함
+
 # 8. GitHub에 푸시 (업로드)
 git push -u origin main
 
